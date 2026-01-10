@@ -1,6 +1,7 @@
 # NotesApp (MERN)
 
-![NotesApp Screenshot](/frontend/notes-app/NotesApp MERN.png)
+![NotesApp Screenshot](/frontend/notes-app/NotesAppMERN.png)
+
 ---
 
 A fully responsive, easy-to-use **Notes App** built with the **MERN stack**:
