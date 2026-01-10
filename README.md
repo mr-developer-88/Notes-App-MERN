@@ -1,5 +1,8 @@
 # NotesApp (MERN)
 
+![NotesApp Screenshot](/frontend/notes-app/NotesApp MERN.png)
+---
+
 A fully responsive, easy-to-use **Notes App** built with the **MERN stack**:
 
 - **Frontend:** React + Vite  
@@ -218,21 +221,6 @@ npm start
 
 ---
 
-## Screenshot
-
-Add a screenshot of your app (e.g. homepage or notes dashboard) to the project root and name it:
-
-```text
-NotesApp MERN.png
-```
-
-Then reference it in the README:
-
-```markdown
-![NotesApp Screenshot](NotesApp%20MERN.png)
-```
-
----
 
 ## License
 
