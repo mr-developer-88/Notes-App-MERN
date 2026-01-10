@@ -1,0 +1,5 @@
+{
+    "connectionString": "ENV_VAR:MONGO_URI",
+    "accessTokenSecret": "ENV_VAR:ACCESS_TOKEN_SECRET",
+    "port": 8000
+}

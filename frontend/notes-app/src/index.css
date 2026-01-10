@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  body {
+    @apply bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-200;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .input-box {
+    @apply w-full text-sm bg-white dark:bg-gray-900 border border-gray-300/80 dark:border-gray-700 px-4 py-3 rounded-lg mb-3 outline-none
+      text-gray-900 dark:text-gray-100 placeholder:text-gray-400 dark:placeholder:text-gray-500
+      transition-all duration-300
+      focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 focus:ring-offset-gray-50 dark:focus:ring-offset-gray-950
+      focus:border-blue-500;
+  }
+  .btn-primary {
+    @apply w-full inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg py-2.5 px-4 my-1
+      text-sm font-medium
+      shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/30
+      transition-all duration-300
+      focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-1 focus-visible:ring-offset-gray-50 dark:focus-visible:ring-offset-gray-950
+      disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+  .icon-btn {
+    @apply text-xl text-gray-400 dark:text-gray-500 cursor-pointer hover:text-primary dark:hover:text-primary transition-colors;
+  }
+  .input-label {
+    @apply text-xs font-medium text-gray-600 dark:text-gray-400 uppercase tracking-wide mb-2;
+  }
+}
