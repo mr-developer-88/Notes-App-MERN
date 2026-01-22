@@ -20,8 +20,7 @@ This app lets users securely create, edit, delete, pin and search notes in a mod
 - ✅ **User Authentication** (signup, login, protected routes)  
 - 📝 **Create Notes** with title and description  
 - ✏️ **Edit / Update Notes**  
-- 🗑️ **Delete Notes**  
-- 📌 **Pin / Unpin Notes** to keep important notes at the top  
+- 🗑️ **Delete Notes**    
 - 🔍 **Search Notes** by title or content  
 - 📱 **Fully Responsive Design** (mobile, tablet, desktop)  
 - 🎨 **Modern UI** powered by TailwindCSS  
